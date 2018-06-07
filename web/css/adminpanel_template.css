@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+}
+.adminpanel-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.adminpanel-sidebar {
+    width: 20%;
+    height: 100%;
+    background: #428bca;
+    overflow: auto;
+}
+.adminpanel-top {
+    background: #073863;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.adminpanel-top a {
+    margin: 5px;
+}
+.adminpanel-menu a {
+	width: 100%;
+}
+.adminpanel-menu {
+    width: 100%;
+    padding: 0;
+}
+.adminpanel-content {
+    width: 80%;
+    overflow: auto;
+    padding: 20px;
+    background: #F5F5F5;
+}

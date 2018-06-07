@@ -1,0 +1,89 @@
+.banners-top-panel {
+	padding: 5px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.adminpanel-home {
+    display: flex;
+    height: 100%;
+}
+.adminpanel-home div {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    font-size: 18px;
+    color: #7A7979;
+}
+.adminpanel-banner {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 1px;
+    margin-bottom: 5px;
+    background: #fff;
+    //border: 1px solid #5bc0de;
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 5px;
+}
+.adminpanel-banner-buttons,
+.adminpanel-banner-img,
+.adminpanel-banner-name,
+.adminpanel-banner-url,
+.adminpanel-banner-status,
+.adminpanel-banner-position {
+    width: 300px;
+    padding: 3px;
+    margin: 0;
+}
+.adminpanel-banner-buttons {
+    text-align: right;
+    padding: 0 0 5px 0;
+}
+.adminpanel-banner-img {
+    display: flex;
+    width: 302px;
+    height: 252px;
+    padding: 0;
+    border: 1px solid #5bc0de;
+}
+.adminpanel-banner-img div{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}
+.adminpanel-banner-name {
+    font-weight: bold;
+    overflow: hidden;
+    position: absolute;
+    background: #fff;
+}
+.adminpanel-banner-name-limit {
+    height: 22px;
+}
+.adminpanel-banner-name:hover {
+    //background: #fff;
+}
+.adminpanel-banner-url {
+    overflow: hidden;
+}
+.adminpanel-banner-status {
+    text-align: center;
+    margin: 0;
+}
+.adminpanel-banner-status select {
+    width: 100%;
+}
+.adminpanel-banner-position {
+    
+}
+.adminpanel-banner-position-button button {
+    width: 150px;
+}
+.modal-banner-error {
+    text-align: center;
+}
+.modal-banner-url-left{
+    padding: 0 5px 15px 0;
+}
+.modal-banner-url-right{
+    padding: 0 0 15px 5px;
+}

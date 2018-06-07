@@ -1,0 +1,1 @@
+<div style="text-align: center; font-size: 18px; margin-top: 30px; color: #7A7979;">- content -</div>
